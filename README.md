@@ -12,10 +12,10 @@ everything in `routes/*.rb` should look like:
 ```ruby
 module Tinker
   module FooRoutes
-    NAMESPACE = "foo"
+    NAMESPACE = "/foo"
 
     def self.registered(app)
-      app.get "/#{NAMESPACE}/" do
+      app.get "#{NAMESPACE}/" do
         "Base of FOO"
       end
     end
