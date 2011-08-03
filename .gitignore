@@ -1,0 +1,4 @@
+.rvmrc
+.powenv
+tmp/*
+! tmp/restart.txt
